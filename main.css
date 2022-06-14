@@ -1,0 +1,141 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+
+### Neutral
+
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Font
+
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;
+
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400
+
+- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+- Weights: 700 */
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: hsl(0, 0%, 95%);
+}
+section {
+    height: 100%;
+    width: 100%;
+}
+
+#section {
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+button {
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 95%);
+    margin: 40px 0px 0px 0px;
+    padding: 10px 15px 10px 15px;
+}
+
+
+
+.sedan button {
+    color:hsl(31, 77%, 52%)
+}
+
+.sedan button:hover {
+    background-color:hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+p {
+    font-size: 12px;
+}
+
+.suv button {
+    color: hsl(184, 100%, 22%);
+}
+
+.suv button:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+.luxury button {
+    color: hsl(179, 100%, 13%);
+}
+
+.luxury button:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+#section h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    margin: 20px 0px 20px 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 70%;
+}
+
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0px 0px 10px;
+    padding: 40px;
+}
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+    padding: 40px;
+}
+
+.luxury {
+    background-color:  hsl(179, 100%, 13%);
+    border-radius: 0px 10px 10px 0px;
+    padding: 40px;
+}
