@@ -48,6 +48,11 @@ html, body {
     width: 100%;
     background-color: hsl(0, 0%, 95%);
 }
+header p {
+    text-align: center;
+    font-size: 20px;
+}
+
 section {
     height: 100%;
     width: 100%;
@@ -120,7 +125,7 @@ p {
     display: flex;
     flex-direction: row;
     width: 60%;
-    height: 70%;
+    height: 60%;
 }
 
 .sedan {
